@@ -1,0 +1,17 @@
+{
+  "name": "web-dev3",
+  "version": "1.0.0",
+  "description": "simple web development project",
+  "repository": {
+    "type": "git",
+    "url": "web-development"
+  },
+  "license": "ISC",
+  "author": "Rakhi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodeman app.js",
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && edit 1"
+  }
+}
