@@ -26,6 +26,7 @@ const app = express();
 // })
 
 const port = 3000;
+app.use(express.json())
 const tourRouter = require ('./router/tourRouter')
 
 app.use('/tours', tourRouter);
